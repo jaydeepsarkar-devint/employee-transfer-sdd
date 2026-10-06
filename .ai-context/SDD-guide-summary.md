@@ -1,6 +1,6 @@
-# SDD Participant Guide — Working Summary
+# SDD Guide — Working Summary
 
-> Condensed from "SDD_Participant_Guide For Internal Evaluation.pdf". Used as the checklist for every artefact in `specs/internal-transfer/`.
+> Condensed from the SDD methodology guide. Used as the checklist for every artefact in `specs/internal-transfer/`.
 
 ## The chain
 Business requirement → Business journey → Questions/ambiguities → Business decisions → Feature spec → Acceptance criteria → API contract → Test cases → **GATE 1** → Technical plan → Tasks → Implementation (test-first) → Testing & validation → **GATE 2** → Traceability & evidence.
@@ -37,7 +37,7 @@ No significant coding before Gate 1 is passed.
 8. **AI usage** — log: stage, prompt, what AI returned, decision, why; ≥1 rejected/corrected output; weak → better prompt examples.
 9. **Traceability** — matrix BR→FR→AC→API→TASK→TEST→Result; at Gate 1 (to test design) and Gate 2 (with results); gaps noted and fixed.
 
-## Evaluation weights (from BRD)
+## Quality focus (relative weight)
 Journey 10 · Ambiguity & discovery 15 · Spec quality 20 · AC & testability 15 · Task decomposition 10 · Test-first 5 · Security & failure 5 · Traceability 20.
 
 ## Common mistakes to avoid
